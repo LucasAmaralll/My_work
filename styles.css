@@ -60,3 +60,15 @@ body {
 .apresentacao_imagem {
     width: 400px;
 }
+
+@media screen and (max-width: 768px) {
+    .apresentacao__links {
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .apresentacao_imagem {
+        max-width: 100%;
+        height: auto;
+    }
+}
